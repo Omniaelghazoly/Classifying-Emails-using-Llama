@@ -1,1 +1,31 @@
-{"cells":[{"source":"![email inbox](email_inbox.jpg)\n\nEvery day, professionals wade through hundreds of emails, from urgent client requests to promotional offers. It's like trying to find important messages in a digital ocean. But AI can help you stay afloat by automatically sorting emails to highlight what matters most.\n\nYou've been asked to build an intelligent email assistant using Llama, to help users automatically classify their incoming emails. Your system will identify which emails need immediate attention, which are regular updates, and which are promotions that can wait or be archived.\n\n### The Data\nYou'll work with a dataset of various email examples, ranging from urgent business communications to promotional offers. Here's a peek at what you'll be working with:\n\n### email_categories_data.csv\n\n Column | Description |\n|--------|-------------|\n| email_id | A unique identifier for each email in the dataset. |\n| email_content | The full email text including subject line and body. Each email follows a format of \"Subject\" followed by the message content on a new line. |\n| expected_category | The correct classification of the email: `Priority`, `Updates`, or `Promotions`. This will be used to validate your model's performance. |\n\n","metadata":{},"id":"4a1291c4-61f8-49ef-899f-89c178cdfd58","cell_type":"markdown"}
+![Email Inbox](email_inbox.jpg)
+
+## Intelligent Email Classifier using LLaMA
+
+Every day, professionals sift through hundreds of emails—from urgent client requests to promotional offers. It's like trying to find a needle in a digital haystack. But AI can help: by automatically sorting emails, it highlights what matters most.
+
+In this project, you've been tasked with building an **intelligent email assistant** powered by **LLaMA**, capable of classifying incoming emails into three useful categories:
+
+- **Priority** – Urgent or important messages requiring immediate attention  
+- **Updates** – Informational or routine notifications  
+- **Promotions** – Marketing content, discounts, or newsletters
+
+---
+
+## 📂 The Dataset
+
+You’ll be working with a structured dataset of diverse email examples, including business communications, system notifications, and marketing messages.
+
+### `email_categories_data.csv`
+
+| Column            | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| `email_id`        | A unique identifier for each email in the dataset                          |
+| `email_content`   | Full email text, including subject and body. Format: `"Subject"` then body |
+| `expected_category` | The true label of the email: `Priority`, `Updates`, or `Promotions`       |
+
+Use this labeled data to train and evaluate your LLaMA-powered classification model.
+
+---
+
+💡 Stay tuned for further instructions on preprocessing, model usage, and evaluation!
